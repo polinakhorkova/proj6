@@ -8,7 +8,7 @@ class Cars with _$Cars {
 
   factory Cars({
     required int id,
-    required String availability,
+    required bool availability,
     required String price,
 
 

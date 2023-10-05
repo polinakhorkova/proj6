@@ -8,7 +8,7 @@ part of 'product.dart';
 
 _$CarsImpl _$$CarsImplFromJson(Map<String, dynamic> json) => _$CarsImpl(
       id: json['id'] as int,
-      availability: json['availability'] as String,
+      availability: json['availability'] as bool,
       price: json['price'] as String,
     );
 
